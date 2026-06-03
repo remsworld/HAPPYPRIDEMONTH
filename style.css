@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rainbow;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+}
+
+
+#board {
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    margin: 20px auto;
+    border: 3px solid white;
+    background: #111;
+    z-index: 2;
+}
+
+.piece {
+    position: absolute;
+    z-index: 800;
+}
+
+#modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.75);
+    display: none;              /**why are you broke**/
+    justify-content: center;
+    align-items: center;
+     z-index: 999;
+}
+
+#modal.show {
+    display: flex;
+    z-index: 999;
+}
+
+.modal-content {
+    background: white;
+    color: rainbow;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
