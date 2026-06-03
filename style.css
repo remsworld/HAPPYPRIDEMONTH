@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: rainbow;
+    background: black;
     color: white;
     text-align: center;
 }
@@ -43,7 +43,7 @@ h1 {
 
 .modal-content {
     background: white;
-    color: rainbow;
+    color: black;
     padding: 30px;
     border-radius: 12px;
 }
